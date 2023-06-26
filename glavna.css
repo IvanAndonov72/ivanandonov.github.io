@@ -1,0 +1,136 @@
+* {
+  font-family: sans-serif;
+}
+body {
+  background-color: gray;
+  margin: 0px;
+  font-family: sans-serif;
+  line-height: 30px;
+}
+#page {
+  margin: auto;
+  width: 1600px;
+  height: 1400px;
+}
+#main-section {
+  float: right;
+  width: 850px;
+  background-color: gray;
+  padding-right: 300px;
+  padding-left: 150px;
+}
+h2 {
+  /* display: inline-block; */
+  font-size: 30px;
+  padding-bottom: 15px;
+  padding-left: 150px;
+  border-bottom: 2px solid white;
+}
+
+.side-bar {
+  background-color: #d5dbd6;
+  float: left;
+  width: 300px;
+  padding-top: 100px;
+  border-radius: 10px;
+}
+.side-bar ul li a {
+  color: black;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 10px 30px;
+}
+li {
+  list-style: none;
+  padding-bottom: 137px;
+  padding-left: 0px;
+}
+.side-bar ul li a:hover {
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+}
+.side-bar ul li:nth-of-type(3) {
+  margin-left: 40px;
+}
+.side-bar ul li:nth-of-type(2) {
+  margin-left: 25px;
+}
+.side-bar ul li:nth-of-type(4) {
+  margin-left: 20px;
+}
+.side-bar ul li:nth-of-type(6) {
+  margin-left: 25px;
+}
+.side-bar ul li:nth-of-type(5) {
+  margin-left: 14px;
+}
+
+.side-bar ul li:nth-of-type(1) {
+  padding-left: 52px;
+}
+.side-bar ul li {
+  font-size: 18px;
+}
+.footer {
+  /* margin-top: 360px; */
+  border-radius: 10px;
+  height: 290px;
+  /* width: 200px; */
+  background-color: rgb(63, 82, 107);
+  height: 173px;
+}
+.footer p {
+  width: 290px;
+  font-family: cursive;
+  display: inline-block;
+}
+
+.footer p:nth-of-type(1) {
+  background: url("images/instanova.jpg") 259px 0px no-repeat;
+  padding-bottom: 50px;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 50px;
+}
+.footer p:last-of-type {
+  padding-left: 20px;
+}
+.footer p:nth-of-type(1) a {
+  text-transform: lowercase;
+  padding-left: 20px;
+}
+a {
+  color: dimgray;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding-left: 20px;
+}
+a {
+  text-decoration: none;
+  color: rgb(56, 55, 55);
+}
+a:hover {
+  color: white;
+  background-color: black;
+  border-radius: 10px;
+  padding: 10px 20px;
+}
+
+#main-section p {
+  padding-top: 20px;
+}
+#main-section p:last-of-type {
+  padding-bottom: 200px;
+  background: url("images/david.jpg") 60px 280px no-repeat,
+    url("images/goggins.jpg") 340px 280px no-repeat,
+    url(images/iman.jpg) 590px 280px no-repeat;
+  border-bottom: 1px solid black;
+}
+.footer p:nth-of-type(2) {
+  margin-top: 50px;
+  width: 500px;
+  padding-right: 10px;
+}

@@ -1,0 +1,107 @@
+.page {
+  margin: auto;
+  width: 1000px;
+  background-color: gray;
+  background: url("images/workandtravel.png") 50px 1250px no-repeat,
+    url("images/time.jpg") 20px 1550px no-repeat,
+    url("images/money.jpg") 10px 1800px no-repeat;
+  border-bottom: 5px solid dimgray;
+  margin-bottom: 50px;
+  height: 2050px;
+}
+body {
+  background-color: gray;
+  font-family: sans-serif;
+  line-height: 30px;
+  margin: 0px;
+}
+.main-section {
+  float: right;
+  width: 600px;
+  padding-left: 100px;
+  background: url("images/comp1.jpg") 120px 740px no-repeat,
+    url("images/comp2.jpg") 450px 740px no-repeat;
+}
+
+h2 {
+  display: inline-block;
+  padding: 10px 20px;
+  padding-right: 320px;
+  border-radius: 10px;
+  background-color: #a19898;
+}
+.side-bar {
+  background-color: #d5dbd6;
+  float: left;
+  width: 300px;
+  padding-top: 100px;
+  border-radius: 10px;
+}
+.side-bar ul li a {
+  color: black;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 10px 30px;
+}
+li {
+  list-style: none;
+  padding-bottom: 140px;
+  padding-left: 0px;
+}
+.side-bar ul li a:hover {
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+}
+.side-bar ul li:nth-of-type(3) {
+  margin-left: 40px;
+}
+.side-bar ul li:nth-of-type(2) {
+  margin-left: 25px;
+}
+.side-bar ul li:nth-of-type(4) {
+  margin-left: 20px;
+}
+.side-bar ul li:nth-of-type(6) {
+  margin-left: 25px;
+}
+.side-bar ul li:nth-of-type(5) {
+  margin-left: 14px;
+}
+
+.side-bar ul li:nth-of-type(1) {
+  padding-left: 52px;
+}
+.side-bar ul li {
+  font-size: 18px;
+}
+.after-pic {
+  width: 900px;
+  margin-left: -300px;
+  margin-top: 460px;
+}
+h3 {
+  display: inline-block;
+  margin-top: 50px;
+  margin-left: -160px;
+  width: 500px;
+  color: black;
+  background-color: dimgray;
+  border-radius: 10px;
+  padding: 20px 40px;
+}
+h1 {
+  padding-bottom: 15px;
+  padding-left: 200px;
+  border-bottom: 2px solid white;
+}
+.intro {
+  padding-bottom: 400px;
+}
+.last {
+  padding-right: 450px;
+}
+.ment {
+  padding-right: 410px;
+}

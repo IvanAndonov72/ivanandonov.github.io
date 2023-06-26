@@ -1,0 +1,118 @@
+* {
+  font-family: sans-serif;
+  line-height: 30px;
+}
+body {
+  margin: 0px;
+  /* background: url("images/Arnold-Schwarzenegger-PNG-Transparent.png") center
+    fixed no-repeat; */
+  background-color: gray;
+}
+#whole-page {
+  margin: auto;
+  width: 1000px;
+  height: 2800px;
+  border-bottom: 5px solid dimgray;
+  margin-bottom: 50px;
+}
+#main-page {
+  display: inline-block;
+}
+h2 {
+  display: inline-block;
+  padding: 15px 10px;
+  padding-right: 350px;
+  background-color: #a19898;
+  border-radius: 10px;
+}
+iframe {
+  padding-left: 10px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.side-bar {
+  background-color: #d5dbd6;
+  float: left;
+  width: 300px;
+  padding-top: 100px;
+  border-radius: 10px;
+}
+.side-bar ul li a {
+  color: black;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 10px 30px;
+}
+li {
+  list-style: none;
+  padding-bottom: 150px;
+  padding-left: 0px;
+}
+.side-bar ul li a:hover {
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+}
+.side-bar ul li:nth-of-type(3) {
+  margin-left: 40px;
+}
+.side-bar ul li:nth-of-type(2) {
+  margin-left: 25px;
+}
+.side-bar ul li:nth-of-type(4) {
+  margin-left: 20px;
+}
+.side-bar ul li:nth-of-type(6) {
+  margin-left: 25px;
+}
+.side-bar ul li:nth-of-type(5) {
+  margin-left: 14px;
+}
+
+.side-bar ul li:nth-of-type(1) {
+  padding-left: 52px;
+}
+.side-bar ul li {
+  font-size: 18px;
+}
+#main-page {
+  display: inline-block;
+  width: 600px;
+  float: right;
+}
+.first a {
+  color: #0c0057;
+  text-decoration: none;
+  margin-left: 180px;
+}
+.first a:hover {
+  background-color: black;
+  padding: 10px 10px;
+  border-radius: 10px;
+  color: white;
+}
+.third h2 {
+  width: 400px;
+  padding-right: 100px;
+}
+.third a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #0c0057;
+}
+.third a:hover {
+  padding: 5px 5px;
+  color: white;
+  background-color: black;
+  border-radius: 10px;
+}
+#whole-page {
+  background: url("images/david-transparent.png") -120px 1350px no-repeat,
+    url("images/david-goggins-transparent.png") -110px 2050px no-repeat;
+}
+h1 {
+  padding-bottom: 15px;
+  padding-left: 200px;
+  border-bottom: 2px solid white;
+}
