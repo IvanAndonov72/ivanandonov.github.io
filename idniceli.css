@@ -3,8 +3,8 @@
   width: 1000px;
   background-color: gray;
   background: url("images/workandtravel.png") 50px 1250px no-repeat,
-    url("/images/time.jpg") 20px 1550px no-repeat,
-    url("/images/money.jpg") 10px 1800px no-repeat;
+    url("images/time.jpg") 20px 1550px no-repeat,
+    url("images/money.jpg") 10px 1800px no-repeat;
   border-bottom: 5px solid dimgray;
   margin-bottom: 50px;
   height: 2050px;
